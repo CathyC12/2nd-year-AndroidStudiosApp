@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Navigation Drawer-->
+    <string name="app_name">عير التطبيقات</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">إعدادات</string>
+    <!--Logout-->
+    <string name="title_activity_main2">خروج</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_maps_activity_page">Map</string>
+
+
+    <!--TEST-->
+    <string name="title_login_layout">تسجيل الدخول الصفحة</string>
+
+    <!--Activity_Main-->
+    <!--Translate-->
+    <string name="activity_main_translate">ترجم</string>
+
+    <!-- String Value for user details activity --> <!--Logout page-->
+    <string name="user_name_lbl">اسم</string>
+    <string name="username_lbl">اسم المستخدم</string>
+    <string name="user_email_lbl">البريد الإلكتروني</string>
+    <string name="user_password_lbl">كلمه السر</string>
+    <string name="user_logout_lbl">خروج</string>
+
+    <!-- String for navagation drawer -->
+
+    <!--Map-->
+    <string name="drawer_item_map">خريطة</string>
+    <!--Profile-->
+    <string name="drawer_item_profile">الملف الشخصي</string>
+    <!--Newsfeed-->
+    <string name="drawer_item_newsfeed">مصادر الأخبار</string>
+    <!--Logout-->
+    <string name="drawer_item_logout">خروج</string>
+    <!--Communicate-->
+    <string name="drawer_item_communicate">نقل</string>
+    <!--Share-->
+    <string name="drawer_item_share">شارك</string>
+    <!--Send-->
+    <string name="drawer_item_send">إرسال</string>
+
+
+
+    <!--String for Login Layout -->
+    <!--Username-->
+    <string name="login_item_username">اسم المستخدم</string>
+    <!--Password-->
+    <string name="login_item_password">كلمه السر</string>
+    <!--Login-->
+    <string name="login_item_login">تسجيل الدخول</string>
+    <!--Register-->
+    <string name="login_item_register">تسجيل</string>
+
+
+    <!--User Register Layout -->
+    <!--Name-->
+    <string name="register_item_name">اسم</string>
+    <!--Username-->
+    <string name="register_item_username">اسم المستخدم</string>
+    <!--Email-->
+    <string name="register_item_email">البريد الإلكتروني</string>
+    <!--Password-->
+    <string name="register_item_password">كلمه السر</string>
+    <!--Register-->
+    <string name="register_item_register">تسجيل</string>
+    <!--Login-->
+    <string name="register_item_login">تسجيل الدخول</string>
+
+    <!--activity_account_settings--> <!--DONE-->
+    <string name="activity_account_settings_translate">ترجم</string>
+</resources>

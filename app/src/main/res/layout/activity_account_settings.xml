@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ayry.com.deleteappwhendone.MainActivity">
+
+    <!--  <android.support.design.widget.AppBarLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:theme="@style/AppTheme.AppBarOverlay">
+
+           <android.support.v7.widget.Toolbar
+               android:id="@+id/toolbar"
+               android:layout_width="match_parent"
+               android:layout_height="?attr/actionBarSize"
+               android:background="?attr/colorPrimary"
+               app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+           <android.support.design.widget.TabLayout
+               android:id="@+id/sliding_tabs"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               app:tabMode="fixed"/>
+
+
+       </android.support.design.widget.AppBarLayout> -->
+
+    <!--  <include
+          layout="@layout/app_bar_main"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"/> -->
+
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/translationBtn"
+                        android:text="@string/activity_account_settings_translate"
+                        android:layout_marginRight="0dp"/>
+
+                </android.support.v7.widget.Toolbar>
+
+
+
+
+
+
+
+            </android.support.design.widget.AppBarLayout>
+
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/nameTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginStart="55dp"
+                    android:layout_marginTop="52dp"
+                    android:text="@string/user_name_lbl" />
+
+                <TextView
+                    android:id="@+id/nameuserTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/nameTV"
+                    android:layout_marginEnd="86dp"
+                    android:layout_marginRight="86dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/userNameHolderTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/nameTV"
+                    android:layout_alignStart="@+id/nameTV"
+                    android:layout_below="@+id/nameuserTV"
+                    android:layout_marginTop="55dp"
+                    android:text="@string/username_lbl"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/username_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/nameuserTV"
+                    android:layout_alignRight="@+id/nameuserTV"
+                    android:layout_alignTop="@+id/userNameHolderTv"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/emailHolder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/userNameHolderTv"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/userNameHolderTv"
+                    android:layout_marginTop="246dp"
+                    android:text="@string/user_email_lbl"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/userEmailTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/nameuserTV"
+                    android:layout_alignRight="@+id/nameuserTV"
+                    android:layout_alignTop="@+id/emailHolder"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/passwordHolder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/emailHolder"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/emailHolder"
+                    android:layout_marginTop="358dp"
+                    android:text="@string/user_password_lbl"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/userPasswordTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/nameuserTV"
+                    android:layout_alignRight="@+id/nameuserTV"
+                    android:layout_alignTop="@+id/passwordHolder"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/logoutBtn"
+                    android:text="@string/user_logout_lbl"
+                    android:layout_below="@+id/passwordHolder"
+                    android:layout_toRightOf="@+id/passwordHolder"
+                    android:layout_toEndOf="@+id/passwordHolder"
+                    android:layout_marginTop="41dp" />
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/nav_header_main"
+            app:menu="@menu/activity_main_drawer" />
+
+
+
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

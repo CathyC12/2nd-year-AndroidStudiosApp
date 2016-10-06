@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_item_name"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:textIsSelectable="false"
+        android:textColor="#000000" />    <!-- used to be Name until it was moved to the strings file -->
+
+    <EditText
+        android:id="@+id/etNameReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_item_username"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:textColor="#000000" />  <!-- used to be User Name until it was moved to the strings file -->
+
+    <EditText
+        android:id="@+id/etUserNameReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_item_email"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:textColor="#000000" />   <!-- used to be Email until it was moved to the strings file -->
+
+    <EditText
+        android:id="@+id/etUserEmailReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_item_password"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:textColor="#000000" />   <!-- used to be Password until it was moved to the strings file -->
+
+    <EditText
+        android:id="@+id/etUserPassswordReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RegBtn"
+        android:text="@string/register_item_register"
+        android:layout_marginBottom="5dp"
+        /> <!-- used to be Register until it was moved to the strings file -->
+
+    <TextView
+
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="@string/register_item_login"
+        android:id="@+id/tvLogin"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/abc_action_bar_content_inset_material" />
+
+</LinearLayout>  <!-- used to be Login until it was moved to the strings file -->

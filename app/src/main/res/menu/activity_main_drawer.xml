@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_map"
+            android:title="@string/drawer_item_map" /> /* used to be Map until it was moved to the strings file */
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/drawer_item_profile" /> /* used to be profile until it was moved to the strings file */
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/drawer_item_newsfeed" /> /* used to be Newsfeed until it was moved to the strings file */
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/drawer_item_logout"/> /* used to be Logout until it was moved to the strings file */
+            />
+    </group>
+
+
+
+</menu>

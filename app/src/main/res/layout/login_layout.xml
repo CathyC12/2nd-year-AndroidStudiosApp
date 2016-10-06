@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_item_username"
+        android:layout_gravity="center"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:textColor="#000000" /> <!-- used to be Username until it was moved to the strings file -->
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_item_password"
+        android:layout_gravity="center_horizontal"
+        android:autoText="false"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:textColor="#000000" /> <!-- used to be Password until it was moved to the strings file -->
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginBtn"
+        android:text="@string/login_item_login"
+        /> <!-- used to be Login until it was moved to the strings file -->
+
+    <TextView
+
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login_item_register"
+        android:id="@+id/tvRegister"
+        android:textColor="#000000"
+        android:textSize="@dimen/abc_action_bar_content_inset_material" />
+</LinearLayout>  <!-- used to be Register until it was moved to the strings file -->

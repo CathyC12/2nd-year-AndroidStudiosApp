@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Ayr Ireland</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Logout</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_maps_activity_page">Map</string>
+
+    <!--TEST-->
+    <string name="title_login_layout">Login Page</string>
+
+    <!--Activity_Main-->
+    <string name="activity_main_translate">Translate</string>
+
+
+    <!-- String Value for user details activity --> <!--Logout page-->
+    <string name="user_name_lbl">Name:</string>
+    <string name="username_lbl">User Name:</string>
+    <string name="user_email_lbl">Email:</string>
+    <string name="user_password_lbl">Password:</string>
+    <string name="user_logout_lbl">Logout:</string>
+
+    <!--Alice-->
+
+    <!-- String for navagation drawer (fragment_main2)(activity_main_drawer) -->
+
+    <string name="drawer_item_map">Map</string>
+    <string name="drawer_item_profile">Profile</string>
+    <string name="drawer_item_newsfeed">Newsfeed</string>
+    <string name="drawer_item_logout">Logout</string>
+    <string name="drawer_item_communicate">Communicate</string>
+    <string name="drawer_item_share">Share</string>
+    <string name="drawer_item_send">Send</string>
+
+    <!--String for Login Layout --> <!--DONE-->
+
+    <string name="login_item_username">Username</string>
+    <string name="login_item_password">Password</string>
+    <string name="login_item_login">Login</string>
+    <string name="login_item_register">Register</string>
+
+    <!--User Register Layout --> <!--DONE-->
+    <string name="register_item_name">Name</string>
+    <string name="register_item_username">Username</string>
+    <string name="register_item_email">Email</string>
+    <string name="register_item_password">Password</string>
+    <string name="register_item_register">Register</string>
+    <string name="register_item_login">Login</string>
+
+    <!--activity_account_settings-->
+    <string name="activity_account_settings_translate">Translate</string>
+
+</resources>
